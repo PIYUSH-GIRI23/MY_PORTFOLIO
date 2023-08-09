@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-white"></span>   
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white  me-4" aria-current="page" href="#About">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white me-4" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white me-4" href="#projects" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Projects
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#p1">Instagram Clone Using Tailwid CSS</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="#p2">Weather Website</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white me-4" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white me-4" href="#social">Connect With Us</a>
+                    </li>
+                </ul>
+                <button class="btn btn-outline-light" id="resumeButton" type="submit">Resume</button>
+            </div>
+        </div>
+    </nav>
+    <br><br><br>
+    <div class="container" id="About">
+        <h1 class="text-white-50 text-center fontsss bg-transparent p-3 glow-box" id="typewriter"><p>HELLO, MY NAME IS PIYUSH GIRI ...</p><p>I AM A WEB DEVELOPER ...</p><p>PLEASE CHECK THE LINKS BELOW ...</p></h1>
+    </div>    
+    <br><br><br>
+    <div class="container glow-box border border-white rounded-5 p-4" id="skills">
+        <h1 class="text-white text-center fontsss">SKILLS</h1><br>
+        <div class="d-flex flex-wrap justify-content-center">
+            <div id="carouselExampleCaptions" class="carousel slide border border-light rounded-2 p-2">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="pictures/c.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="pictures/htm5.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="pictures/css.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="pictures/js.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="pictures/boot_tail.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="pictures/react.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="container border border-white p-4 rounded-4 glow-box fontsss" id="projects">
+        <h1 class="text-center text-white">PROJECTS</h1><br>
+        <div id="p1" class="video-container">
+            <div class="video-frame text-center d-flex justify-content-center">
+                <video controls autoplay muted>
+                    <source src="video/insta.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="video-text  d-flex justify-content-center">
+                <div class="card " style="width: 22rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Instagram Clone using Tailwind Css</h5><br>
+                      <h6 class="card-subtitle mb-2 text-body-secondary">A Beginner Friendly Website</h6><br>
+                      <p class="card-text">Here I have used Html, Javascript, tailwind Css</p>
+                      <hr class="separate">
+                      <a class="card-link" id="alpha" target="_blank" href="https://piyush-giri23.github.io/Instagram_clone/">Go To Website</a>
+                    </div>
+                  </div>
+            </div>
+        </div><br><br>
+        <div id="p2" class="video-container">
+            <div class="video-frame d-flex justify-content-center">
+                <video controls autoplay muted>
+                    <source src="video/weather_app.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="video-text d-flex justify-content-center">
+                    <div class="card " style="width: 22rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Weather App</h5><br>
+                          <h6 class="card-subtitle mb-2 text-body-secondary">This Website fetches the weather using Weather API</h6><br>
+                          <p class="card-text">Here I have used Html, Javascript, Vanilla CSS, Bootstrap</p>
+                          <hr class="separate">
+                          <a class="card-link" id="alpha" href="https://piyush-giri23.github.io/Project2_weather_website/" target="_blank" >Go To Website</a>
+                        </div>
+                      </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div id="contact" class="container">
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+        </div>
+        <button type="button" class="btn btn-primary mt-3 container-fluid" id="submit">
+            Submit
+        </button>
+        <br>
+    </div><br>
+    <div id="alerts" class="container">
+    </div>
+    <br>
+    <hr id="separator"><br>
+    <footer id="social">
+        <div class="container">
+            <ul class="d-flex flex-wrap justify-content-around ">
+                <a class="text-white me-3 glow-box p-2 mb-3" style="font-size:20px" href="https://github.com/PIYUSH-GIRI23" target="_blank">Github</a>
+                <a class="text-white me-3 glow-box p-2 mb-3" style="font-size:20px" href="https://twitter.com/GIRIPIYUSH2310" target="_blank">Twitter</a>
+                <a class="text-white me-3 glow-box p-2 mb-3" style="font-size:20px" href="https://www.linkedin.com/in/piyush-giri-031b71254/" target="_blank">Linked In</a>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

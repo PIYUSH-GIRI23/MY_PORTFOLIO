@@ -1,0 +1,213 @@
+.text-white{
+    color: wheat !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+.card{
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+.glow-box{
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Adjust the shadow color and size as needed */
+    transition: box-shadow 0.3s ease-in-out; /* Add a smooth transition for the effect */
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.glow-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+/* Basic styles for the container */
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+}
+
+/* Styles for the video frame */
+.video-frame {
+    flex: 1;
+    max-width: 100%;
+}
+
+.video-frame video {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    border: 4px solid #fff; /* Add border */
+    box-shadow:0 0 10px rgba(255, 255, 255, 0.8); /* Add shadow */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.video-frame video:hover {
+    transform: scale(1.05); /* Add scale effect on hover */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);; /* Enhance shadow on hover */
+}
+
+/* Styles for the text */
+.video-text {
+    flex: 1;
+    max-width: 35%;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+}
+
+/* Responsive font size for text */
+/* .video-text h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.video-text p {
+    font-size: 1.2rem;
+} */
+@media (max-width: 900px) {
+    .video-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .video-frame,
+    .video-text {
+        max-width: 100%;
+    }
+    
+    .video-text {
+        margin-top: 20px;
+    }
+}
+#alpha {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #E1306C;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+}
+
+#alpha:hover {
+    background-color: #FF5E7D;
+    transform: scale(1.05);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.separate{
+    color:grey;
+    border:2px solid grey;
+}
+/* Basic styles for the card */
+.card {
+    width: 22rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+}
+
+.card:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for the "Go To Website" link */
+.card-link {
+    display: inline-block;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.card-link:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+#contact{
+    border:2px solid white;
+    padding:11px;
+}
+#contact {
+    /* background-color: #f0f0f0; */
+    box-shadow:0 0 10px rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+}
+
+#contact:hover {
+    background-color: #e0e0e0;
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Additional styling for the form elements and button */
+.form-floating {
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #007bff;
+    transform: scale(1.05);
+}
+#submit{
+    transform: none !important;
+}
+img{
+    width:fit-content;
+    height: 400px;
+}
+#separator{
+    color:white;
+    border:2px solid white;
+}
+.fontsss{
+    font-family:'Times New Roman', Times, serif!important;
+}
+#typewriter {
+    overflow: hidden;
+    white-space: pre-wrap;
+    border-right: 0.15em solid #000; /* Blinking cursor effect */
+    font-size: 24px;
+    animation: typing 2s steps(20, end), blink-caret 0.75s step-end infinite;
+  }
+
+  /* @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  } */
+
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: white;
+    }
+  }
