@@ -16,7 +16,7 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://twitter.com/@giripiyush2310" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="@giripiyush2310" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/piyush giri" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="piyush giri" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/piyush-giri-031b71254" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="piyush giri" height="30" width="40" /></a>
 <a href="https://instagram.com/piyush_giri23" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="piyush_giri23" height="30" width="40" /></a>
 <a href="https://codeforces.com/profile/piyushgiri23" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="piyushgiri23" height="30" width="40" /></a>
 </p>
